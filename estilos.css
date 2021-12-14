@@ -1,0 +1,15 @@
+.bg-header{
+    background-image: url(/IMG/bg-header.jpg);
+    background-position:center center;
+    background-size: cover;
+    height: 100vh;
+}
+.bg-item{
+    backdrop-filter: blur(15px);
+}
+.margen{
+    margin-right: 0.1px;
+}
+.titulo{
+    color: #7bc9ff;
+}
