@@ -1,24 +1,21 @@
+body{
+    background: #e2e2e2;
+}
 .bg-header{
     background-image: url(/IMG/bg-header.jpg);
-    background-position:center center;
+    background-position:center ;
     background-size: cover;
     height: 100vh;
-}
-.bg-body{
-    background-color: #e2e2e2;
-}
-.bg-item{
-    backdrop-filter: blur(15px);
 }
 .bg-trazo{
     background-image: url(/IMG/Trazado.png);
     background-size: cover;
-    height: 60vh;
+    /* height: 60vh; */
     padding-top: 1rem;
 }
-.bg-gradient{
+.bg-gradiente{
     background-color: #eeeeee;
-    background-image: linear-gradient(270deg, #eeeeee 0%, #b1b1b1 100%);
+    background-image: linear-gradient(275deg, #eeeeee 0%, #b1b1b1 100%);
 }
 .margen{
     margin-right: 0.1px;
