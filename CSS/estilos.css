@@ -17,8 +17,15 @@ body{
     background-color: #eeeeee;
     background-image: linear-gradient(275deg, #eeeeee 0%, #b1b1b1 100%);
 }
+.bg-section-5{
+    background-image: url(/IMG/Section-5.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 65vh;
+}
 .margen{
     margin-right: 0.1px;
+    margin-left: 0.1px;
 }
 .titulo-header{
     color: #7bc9ff;
@@ -38,4 +45,59 @@ body{
 }
 .text-shadow{
     text-shadow: 0px 3px 6px #000000;
+}
+.planes-1{
+    color: #4a4a4a;
+    border-color: #4a4a4a!important;
+    border-radius: .9rem;
+    background-color: #eeeeee;
+}
+.bg-planes-1{
+    background-image: url(/IMG/Etiqueta-1.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 10%;
+}
+.planes-2{
+    color: #102c7c;
+    border-color: #102c7c!important;
+    border-radius: .9rem;
+    background-color: #eeeeee;
+}
+.bg-planes-2{
+    background-image: url(/IMG/Etiqueta-2.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 10%;
+}
+.planes-3{
+    color: #0484fc;
+    border-color: #0484fc!important;
+    border-radius: .9rem;
+    background-color: #eeeeee;
+}
+.bg-planes-3{
+    background-image: url(/IMG/Etiqueta-3.png);
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 10%;
+}
+.btn-1{
+    color: #fff;
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+}
+.btn-2{
+    color: #fff;
+    background-color: #102c7c;
+    border-color: #102c7c;
+}
+.btn-3{
+    color: #fff;
+    background-color: #0484fc;
+    border-color: #0484fc;
+}
+
+.bg-footer{
+    background-color: #c5c5c5;
 }
