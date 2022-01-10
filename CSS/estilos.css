@@ -23,6 +23,12 @@ body{
     background-size: cover;
     height: 65vh;
 }
+.bg-logo{
+    background: url(../IMG/LogoCS-opaco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
 .margen{
     margin-right: 0.1px;
     margin-left: 0.1px;
