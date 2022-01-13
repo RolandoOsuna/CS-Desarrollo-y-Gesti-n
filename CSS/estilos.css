@@ -107,3 +107,24 @@ body{
 .bg-footer{
     background-color: #c5c5c5;
 }
+
+
+.transicion-cards{
+    border-radius: 50%;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    /* transition: 0.4s linear; */
+}
+.transicion-cards:hover{
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
+    padding: 10px;
+}
+.transicion-planes{
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    /* transition: 0.4s linear; */
+}
+.transicion-planes:hover{
+    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
+}
+
