@@ -127,4 +127,21 @@ body{
 .transicion-planes:hover{
     box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
 }
+.border-right{
+    border-right: 1px solid;
+    border-color: #6c757d!important;
+}
+.border-left{
+    border-left: 1px solid;
+    border-color: #6c757d!important;
+}
+@media (max-width: 991px) {
+    .border-right{
+        border-right: none;
+    }
+    .border-left{
+        border-left: none;
+    }
+    
+} 
 

@@ -20,7 +20,20 @@
     <link rel="stylesheet" href="BOOTSTRAP\css\bootstrap.min.css">
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="CSS/Normalize.css">
+    
     <title>Inicio</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7LV0R49B23"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7LV0R49B23');
+    </script>
+
+    
 </head>
 <body >
     <header class="row margen bg-header align-items-center ">
@@ -231,6 +244,42 @@
         </div>
     </section>
 
+    <!-- CARRUSEL -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="texto-card text-center pb-3">Conoce nuestros proyectos</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5 pb-3">
+                <div class="col-12 col-lg-10 ">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="" class="d-block w-100" loading="lazy">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" loading="lazy">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="" class="d-block w-100" loading="lazy">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="bg-footer pt-5">
         <div class="container">
@@ -258,11 +307,12 @@
                             (669) 179-2989
                         </p> 
                         <!-- CORREO -->
+                        <a class="text-decoration-none link-dark" href="mailto:contacto@csdesarolloygestion.com">
                         <p class="">
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
                             </svg>
-                            Correo@csdg.com.mx
+                            contacto@csdesarolloygestion.com</a>
                         </p>
                         <!-- UBICACION -->
                         <p class="">
@@ -277,17 +327,17 @@
                 <!-- VISION-MISION-VALORES -->
                 <div class="col-12 col-lg-8 d-lg-flex">
                     <!-- MISION -->
-                    <div class="col text-center">
+                    <div class="col text-center border-right p-0 pe-lg-1">
                         <h5 class="">Misión</h5>
                         <p>Trabajamos con el propósito de llevar tu negocio al siguiente nivel acordes a las condiciones y oportunidades del entorno.</p>
                     </div>
                     <!-- VISION -->
-                    <div class="col text-center">
+                    <div class="col text-center border- border-right p-0 px-lg-1">
                         <h5 class="">Visión</h5>
-                        <p>Ser una empresa destacada por llevar el mejor manejo de administración empresarial.</p>
+                        <p>Ser una empresa joven lider en la administracion en proyectos del sector privado.</p>
                     </div>
                     <!-- VALORES -->
-                    <div class="col ">
+                    <div class="col  ps-1">
                         <h5 class="text-center">Valores</h5>
                         <div class="row">
                             <div class="col-6">
