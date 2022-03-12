@@ -110,14 +110,10 @@ body{
 
 
 .transicion-cards{
-    border-radius: 50%;
-    -webkit-transition: 0.4s linear;
-    transition: 0.4s linear;
-    /* transition: 0.4s linear; */
+    transition: transform .5s;
 }
 .transicion-cards:hover{
-    box-shadow: 0 .5rem 1rem rgb(56, 56, 56)!important;
-    padding: 10px;
+    transform: scale(1.1); 
 }
 .transicion-planes{
     -webkit-transition: 0.4s linear;
