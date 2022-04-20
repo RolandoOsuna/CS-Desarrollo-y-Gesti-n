@@ -1,18 +1,49 @@
-.bg-header{
-    background-image: url(../IMG/bg-header.jpg);
-    background-position:center ;
-    background-size: cover;
+
+#particles-js{
     height: 100vh;
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    background-color: #010816;
 }
-.bg-trazo{
-    background-image: url(../IMG/Trazado.png);
+.contenedor{
+    /* width: 90%;
+    max-width: 1200px;
     background-size: cover;
-    /* height: 60vh; */
-    padding-top: 1rem;
+    background: url(../IMG/Logo-header.png);
+    background: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px; */
+    height: 100vh;
+    position:relative;
+    /* z-index: 99; */
 }
 body{
     background: #e2e2e2;
 }
+.bg-section{
+    background-image: url(../IMG/bg-section.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 90vh;
+}
+.bg-section2{
+    background-image: url(../IMG/img-aside.png);
+    background-position:center ;
+    background-size: cover;
+    /* height: 90vh; */
+}
+.bg-trazo{
+    background-image: url(../IMG/Trazado.png);
+    background-size: cover;
+    background-position:center ;
+    /* height: 60vh; */
+    /* padding-top: 1rem; */
+}
+
 .bg-gradiente{
     background-color: #eeeeee;
     background-image: linear-gradient(275deg, #eeeeee 0%, #b1b1b1 100%);
