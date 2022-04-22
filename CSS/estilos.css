@@ -2,24 +2,23 @@
 #particles-js{
     height: 100vh;
     width: 100%;
-    position:absolute;
-    z-index: -1;
+    /* z-index: -1; */
     background-color: #010816;
 }
-.contenedor{
-    /* width: 90%;
-    max-width: 1200px;
-    background-size: cover;
-    background: url(../IMG/Logo-header.png);
-    background: no-repeat;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    padding: 20px 30px; */
-    height: 100vh;
-    position:relative;
-    /* z-index: 99; */
+.panel{
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -210px 0 0 -210px;
+    z-index: 100;
+}
+@media (max-width: 768px) {
+    .panel{
+        width: 250px;
+        margin: -150px 0 0 -130px;
+    }
 }
 body{
     background: #e2e2e2;
