@@ -106,6 +106,89 @@
 body{
     background: #e2e2e2;
 }
+    /* CARD DESARROLLO */
+.bg-card-desarrollo{
+    background: rgb(117,127,154);
+    background: linear-gradient(328deg, rgba(117,127,154,1) 0%, rgba(215,221,232,1) 100%);
+    border-radius: 15px;
+}
+.bg-card-desarrollo span{
+    color: #757F9A;
+    text-shadow: 0px 2px 8px #707070a8;   
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color:  #707070;
+    font-size: 30px;
+}
+.bg-card-desarrollo p{
+    color: #707070;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367);   
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #757F9A;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 0px;
+}
+    /* CARD GESTION */
+.bg-card-gestion{
+    background: rgb(189,195,199);
+    background: linear-gradient(137deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 100%);
+    border-radius: 15px;
+}
+.bg-card-gestion span{
+    color: #2C3E50;
+    text-shadow: 0px 2px 8px #707070a8;   
+    font-size: 30px;
+}
+.bg-card-gestion p{
+    color: #BDC3C7;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367); 
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom:40px;
+}
+    /* CARD-SEGUIMIENTO */
+.bg-card-seguimiento{
+    background: rgb(55,59,68);
+    background: linear-gradient(137deg, rgba(55,59,68,1) 0%, rgba(66,134,244,1) 100%);
+    border-radius: 15px;
+}
+.bg-card-seguimiento span{
+    color: #4286F4;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.427);   
+    -webkit-text-stroke-width: 0.5px;
+
+    -webkit-text-stroke-color:  #777777;
+    font-size: 30px;
+}
+.bg-card-seguimiento p{
+    color: #B6B7B9;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367);   
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 55px;
+}
+/* CARD-TRANSPARENCIA */
+.bg-card-transparencia{
+    background: rgb(83,105,118);
+    background: linear-gradient(137deg, rgba(83,105,118,1) 0%, rgba(41,46,73,1) 100%);
+    border-radius: 15px;
+}
+.bg-card-transparencia span{
+    color: #9FA4BF;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.427);   
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #707070;
+    font-size: 30px;
+}
+.bg-card-transparencia p{
+    color: #B7AFAF;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367);   
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #536976;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 55px;
+}
 .bg-section{
     background-image: url(../IMG/bg-section.jpg);
     background-position:center ;
