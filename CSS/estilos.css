@@ -7,14 +7,32 @@
 }
 .ml3 {
     font-size: 3em;
-    
 }
+.panel{
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -200px;
+    z-index: 100;
+}
+@media (max-width: 768px) {
+    .panel{
+        width: 250px;
+        margin: -150px 0 0 -130px;
+    }
+    .ml3{
+        font-size: 2rem;
+    }
+}
+
 .navb {
     position: absolute;
     width: 100%;
     z-index: 10;
-    /* top: 38%; */
-    margin: -308px 0 0 -210px;
+    top: 6%;
+    /* margin: -308px 0 0 -210px; */
     font-family: 'Titillium Web';
     text-transform: uppercase;
     text-align: center;
@@ -88,25 +106,15 @@
     margin: -210px 0 0 -210px;
     z-index: 100;
 } */
-.panel{
-    position: absolute;
-    z-index: 10;
-    width: 400px;
-    top: 50%;
-    left: 50%;
-    margin: -210px 0 0 -210px;
-    z-index: 100;
-}
-@media (max-width: 768px) {
-    .panel{
-        width: 250px;
-        margin: -150px 0 0 -130px;
-    }
-}
 body{
     background: #e2e2e2;
 }
     /* CARD DESARROLLO */
+.bg-section-cards{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .bg-card-desarrollo{
     background: #EBEBEB;
     background: linear-gradient(137deg, #EBEBEB 0%, rgba(215,221,232,1) 100%);
@@ -130,7 +138,7 @@ body{
 }
 .transicion-desarrollo{
     -webkit-transition: 0.4s linear;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s linear;
 }
 .transicion-desarrollo:hover{
      background: rgb(117,127,154);
@@ -161,7 +169,7 @@ body{
 }
 .transicion-gestion{
     -webkit-transition: 0.4s linear;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s linear;
 }
 .transicion-gestion:hover{
     background: rgb(189,195,199);
@@ -189,7 +197,7 @@ body{
 }
 .transicion-seguimiento{
     -webkit-transition: 0.4s linear;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s linear;
 }
 .transicion-seguimiento:hover{
     background: rgb(55,59,68);
@@ -219,7 +227,7 @@ body{
 }
 .transicion-transparencia{
     -webkit-transition: 0.4s linear;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s linear;
 }
 .transicion-transparencia:hover{
     background: rgb(83,105,118);
