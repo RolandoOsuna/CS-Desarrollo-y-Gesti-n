@@ -113,17 +113,17 @@ body{
     border-radius: 15px;
 }
 .bg-card-desarrollo span{
-    color: #757F9A;
-    text-shadow: 0px 2px 8px #707070a8;
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color:  #707070;
+    color: #2d2c2c;
+    text-shadow: 0px 2px 8px #0c0c0c5a;
+    /* -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color:  #707070; */
     font-size: 30px;
 }
 .bg-card-desarrollo p{
-    color: #707070;
+    color: #000000;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:  #757F9A;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:  #757F9A; */
     font-size: 20px;
     line-height: 1.5rem;
     margin-bottom: 20px;
@@ -175,9 +175,9 @@ body{
 }
 .bg-card-seguimiento span{
     color: #4286F4;
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.427);
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:  #777777;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.184);
+    /* -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #777777; */
     font-size: 30px;
 }
 .bg-card-seguimiento p{
@@ -202,17 +202,17 @@ body{
     border-radius: 15px;
 }
 .bg-card-transparencia span{
-    color: #9FA4BF;
+    color: #333333;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.237);
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color:  #707070;
+    /* -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:  #707070; */
     font-size: 30px;
 }
 .bg-card-transparencia p{
-    color: #9FA4BF;
+    color: #4c4c4c;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.367);
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color:  #536976;
+    /* -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:  #536976; */
     font-size: 20px;
     line-height: 1.5rem;
     margin-bottom: 55px;
@@ -222,8 +222,11 @@ body{
     transition: 0.4s linear;
 }
 .transicion-transparencia:hover{
-    background: rgb(83,105,118);
-    background: linear-gradient(137deg, rgba(83,105,118,1) 0%, rgba(41,46,73,1) 100%);
+
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(328deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(328deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .rectangulo{
     position:relative;
