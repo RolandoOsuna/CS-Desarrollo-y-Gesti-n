@@ -38,15 +38,36 @@
 <body >
     <div id="particles-js"></div>
     <header class=" ">
-        <nav class="navb row margen d-flex justify-content-center text-light text-center">
-            <ul class="navb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Work</a></li>
-              </ul>
+        <nav class="navb row margen d-flex justify-content-center d-block d-lg-none ">
+            <ul class="navb text-end">
+                <button class="btn btn-primary navbar-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <!-- <h5 id="offcanvasRightLabel">Offcanvas right</h5> -->
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Proyectos</a></li>
+            </ul>
         </nav>
+
+        <nav class="navb row margen d-flex justify-content-center d-none d-lg-block ">
+            <ul class="navb text-center">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Proyectos</a></li>
+            </ul>
+        </nav>
+
+
+
         <div class="text-center panel">
             <img class="img-fluid " src="IMG/LogoCS-item.png"  style="filter: drop-shadow(1px 1px 5px rgba(95, 95, 95, 0.493));" loading="lazy">
             <h1 class="ml3 titulo-header">CS DESARROLLO Y GESTION</h1>
@@ -76,7 +97,7 @@
         <!-- <div class="row margen d-flex justify-content-center">
             <div class="col-12 col-lg-5 text-center bg-section2  py-5">
                 <h1 class="text-center texto-card ">Desarrollo y Gestión</h1>
-                <p class="fs-3 text-center text-light text-shadow">Enfocamos tus competencias a la creación y gestión efectiva de tu empresa. Implementando procesos de calidad e innovación aplicados al desarrollo y posicionamiento de tus organizaciones, productos y servicios.</p>
+                <p class="fs-3 text-center  text-shadow">Enfocamos tus competencias a la creación y gestión efectiva de tu empresa. Implementando procesos de calidad e innovación aplicados al desarrollo y posicionamiento de tus organizaciones, productos y servicios.</p>
             </div>
             <div class="col-12 col-lg-7 text-center bg-trazo  justify-content-center">
                 <div class="row  text-center">

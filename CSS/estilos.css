@@ -202,7 +202,7 @@ body{
     border-radius: 15px;
 }
 .bg-card-transparencia span{
-    color: #333333;
+    color: #4c4c4c;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.237);
     /* -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color:  #707070; */
@@ -450,6 +450,9 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     .tamaño-fuente p{
         font-size: calc(1.3rem + .6vw);
         padding: 0 3rem;
+    }
+    .navb a{
+        color: #005AA7;
     }
 }
 @media (max-width: 768px) {
