@@ -472,8 +472,13 @@ background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, F
     }
     .bg-section{
     background: url(../IMG/bg-section.png);
-    /* background-position: 65px; */
     background-size: 284px 418px;
     background-repeat: no-repeat;
+}
+}
+@media (min-width: 2070px){
+    .bg-section{
+        background-position: 370px;
+        
     }
 }
